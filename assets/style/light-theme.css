@@ -1,0 +1,94 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+} */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"); */
+
+body {
+  background-color: #faf8f1;
+  /* min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; */
+}
+
+.page {
+  background-color: #faeab1;
+  /* padding: 30px;
+  max-width: 400px;
+  border-radius: 20px;
+  height: 260px;
+  transition: height 0.4s ease; */
+}
+
+/* .page.active {
+  height: 500px;
+} */
+
+/* header h1 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+header p {
+  margin-top: 7px;
+  font-size: 15px;
+}
+
+.page .main {
+  margin: 20px 0 30px;
+}
+
+.main :where(input, button) {
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+} */
+
+.main input {
+  /* font-size: 20px;
+  padding: 0 20px; */
+  border: 2px solid #fffbeb;
+}
+
+.main button {
+  /* font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer; */
+  background-color: #e5ba73;
+  color: #333;
+  /* transition: all 0.4s ease;
+  font-weight: 700;
+  font-size: 20px; */
+}
+
+.main button:hover {
+  background-color: #c58940;
+  box-shadow: 0 0 5px 5px rgba(197, 137, 64, 0.5);
+}
+
+.page .qr-code {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  opacity: 0;
+  pointer-events: none; */
+  background-color: #fff;
+  /* border-radius: 20px;
+  height: 220px;
+  width: 220px;
+  margin: 0 auto; */
+}
+
+/* .page.active .qr-code {
+  opacity: 1;
+  pointer-events: auto;
+  transition: opacity 0.3s 0.3s ease;
+} */
