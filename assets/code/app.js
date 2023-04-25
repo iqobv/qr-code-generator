@@ -1,7 +1,7 @@
 const page = document.querySelector(".page");
-generateBtn = page.querySelector(".main button");
-qrInput = page.querySelector(".main input");
-qrImg = page.querySelector(".qr-code img");
+generateBtn = document.querySelector(".main button");
+qrInput = document.querySelector(".main input");
+qrImg = document.querySelector(".qr-code img");
 
 generateBtn.addEventListener("click", () => {
   let qrValue = qrInput.value;
